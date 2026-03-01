@@ -20,6 +20,7 @@ const EventButton = () => {
             onPress={_onPress}
             onLongPress={_onLongPress}
         >
+            <Text style={{ color: 'white', fontSize: 24 }}></Text>
         </TouchableOpacity>
     )
 }
