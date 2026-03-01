@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "react-native-book_study",
-    "slug": "react-native-book_study",
+    "name": "react-native-book-study",
+    "slug": "react-native-book-study",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
