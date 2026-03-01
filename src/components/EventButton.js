@@ -1,5 +1,4 @@
-import { TouchableOpacity } from "react-native"
-
+import { TouchableOpacity, Text } from "react-native"
 
 const EventButton = () => {
     const _onPressIn = () => console.log('Press In !!!\n')
@@ -19,8 +18,11 @@ const EventButton = () => {
             onPressOut={_onPressOut}
             onPress={_onPress}
             onLongPress={_onLongPress}
+            delayLongPress={3000}
         >
-            <Text style={{ color: 'white', fontSize: 24 }}></Text>
+            <Text style={{ color: 'white', fontSize: 24 }}>Event Button</Text>
         </TouchableOpacity>
     )
 }
+
+export default EventButton;
